@@ -39,9 +39,13 @@ nav {
     font-size: 100px;
 }
 
+#project_container {
+    margin-top: 200px;
+}
+
 .project_area {
     text-align: center;
-    margin-top: 300px;
+    padding-top: 100px;
 }
 
 .project_info {
@@ -56,8 +60,7 @@ nav {
 .card {
     width: 300px;
     height: 200px;
-    border: 2px solid F2F0F1;
-    padding: 10px, 10px, 10px;
+    border: 2px solid #F2F0F1;
     border-radius: 4px;
     padding: 20px;
     margin: 0px, auto, 20px;
@@ -76,4 +79,25 @@ nav {
 
 .project_link {
     color: black;
+}
+.contact_area {
+    margin-top: 50px;
+}
+
+.contact_item {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+a {
+    text-decoration-line: none;
+    text-decoration-color: black;
+    color: black;
+}
+
+.contact_text {
+    font-size: 20px;
+    text-decoration-line: none;
+    text-decoration-color: black;
 }
